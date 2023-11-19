@@ -1,9 +1,9 @@
 import { Page } from "playwright";
 
 type Config = {
-  /** URL to start the crawl */
+  /https://www.mako.co.il/news-military/6361323ddea5a810/Article-41aa470bb4b0b81027.htm */
   url: string;
-  /** Pattern to match against for links on a page to subsequently crawl */
+  /https://www.mako.co.il/news-military/6361323ddea5a810/Article-.htm */
   match: string;
   /** Selector to grab the inner text from */
   selector: string;
