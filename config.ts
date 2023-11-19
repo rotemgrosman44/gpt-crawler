@@ -1,9 +1,9 @@
 import { Page } from "playwright";
 
 type Config = {
-  /** URL to start the crawl */
+  /https://w.ynet.co.il/news/absent?externalurl=true*/
   url: string;
-  /** Pattern to match against for links on a page to subsequently crawl */
+  /https://w.ynet.co.il/news/absent=true*/
   match: string;
   /** Selector to grab the inner text from */
   selector: string;
